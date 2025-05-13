@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: url('https://images.unsplash.com/photo-1546387903-6d82d96ccca6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00bcd4;
+  }
+  .logo-img {
+    height: 30px;
+    width: auto;
+  }
+  
+  .logo span {
+    color: #00bcd4;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+  }
+  
+  .signup-btn {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .social-container {
+    width: fit-content;
+    text-align: center;
+    margin: 100px auto; /* Center the container */
+    background-color: white;
+    padding:40px ;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.social-container h1 {
+    color: rgb(27, 70, 130);
+}
+
+.social-container p {
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    margin-top: 20px; /* Space above the icons */
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 24px; /* Increased icon size */
+    margin: 0 15px; /* Spacing between icons */
+    display: flex; /* Use flex for better alignment */
+    align-items: center; /* Center icon vertically with text */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.social-links a:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.social-links a.facebook {
+    color: #3b5998; /* Facebook blue */
+}
+
+.social-links a.instagram {
+    color: #E1306C; /* Instagram pink */
+}
+
+.social-links a.whatsapp {
+    color: #25D366; /* WhatsApp green */
+}
+
+.social-links i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 28px; /* Size of the icons */
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #8a8787;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Appointments</title>
+  <link rel="stylesheet" href="css/appointment.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/talkspace logo.jpg" alt="Logo" width="150px" >
+    
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="appointment.html">Schedule</a>
+      <a href="reports.html">Reports</a>
+      <button class="logout-btn">Log out</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="appointments-container">
+      <h2>Your Appointments</h2>
+
+      <div class="appointment">
+        <div class="row">
+          <strong>Patient Name:</strong> Ahmed Ali
+          <strong>Appointment Time:</strong> 01:00 PM
+          <strong>Appointment Date:</strong> 12 May 2024
+          <strong>Appointment State:</strong> Coming
+        </div>
+        <button class="cancel-btn">Cancel The Appointment</button>
+      </div>
+
+      <div class="appointment">
+        <div class="row">
+          <strong>Patient Name:</strong> Sarah Tarek
+          <strong>Appointment Time:</strong> 04:00 PM
+          <strong>Appointment Date:</strong> 13 May 2024
+          <strong>Appointment State:</strong> Done
+        </div>
+        <button class="cancel-btn">Cancel The Appointment</button>
+      </div>
+
+      <div class="appointment">
+        <div class="row">
+          <strong>Patient Name:</strong> Ahmed Emad
+          <strong>Appointment Time:</strong> 03:30 PM
+          <strong>Appointment Date:</strong> 14 May 2024
+          <strong>Appointment State:</strong> Done
+        </div>
+        <button class="cancel-btn">Cancel The Appointment</button>
+      </div>
+
+      <div class="pagination">
+        <button>&larr;</button>
+        <span>Page 1</span>
+        <button>&rarr;</button>
+      </div>
+
+      <button class="go-back">Go Back</button>
+    </div>
+  </main>
+  <script src="js/appointment.js"></script>
+</body>
+</html>

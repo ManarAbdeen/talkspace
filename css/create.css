@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+ 
+        background: url('https://images.unsplash.com/photo-1546387903-6d82d96ccca6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      
+      
+  }
+  
+  header {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo span {
+    color: #00bfff;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .signup-btn {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .signup-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .age-gender {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .age-gender input, .age-gender select {
+    flex: 1;
+  }
+  
+  .main-btn {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9em;
+  }
+  
+  .login-link a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  .google-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .google-btn:hover {
+  background-color: #f5f5f5;
+}
+  
+  .google-btn img {
+    width: 20px;
+    margin-left: 8px;
+  }
+  

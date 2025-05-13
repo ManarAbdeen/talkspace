@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: url('https://images.unsplash.com/photo-1546387903-6d82d96ccca6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00bcd4;
+  }
+  .logo-img {
+    height: 30px;
+    width: auto;
+  }
+  
+  .logo span {
+    color: #00bcd4;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+  }
+  
+  .signup-btn {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    width: 40%;
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    color: rgb(27, 70, 130);
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+form input:hover {
+    
+    background-color: #f7f7f7;
+  }
+  
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .divider{
+margin-bottom: 10px;
+
+  }
+  .login-btn {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  .signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .signup-link a{
+color: #00bcd4;
+text-decoration: none;
+
+  }
+
+
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #555;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 15px;
+  }
+  
+  .google-btn:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .google-btn img {
+    height: 18px;
+    width: 18px;
+  }

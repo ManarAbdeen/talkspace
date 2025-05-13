@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+.logo {
+    font-size: 20px;
+    color: #00bcd4;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .logout-btn {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://images.unsplash.com/photo-1546387903-6d82d96ccca6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  .separator {
+    background-color: white;
+    height: 1px;
+    margin: 10px 0; /* تباعد الفاصل عن النص */
+  }
+  
+
+
+
+  
+
+main {
+    padding: 30px 30px;
+
+}
+
+.appointments {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.next-appointments, .previous-appointments {
+    background-color: #cecbcb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    
+    color: #022b37;
+}
+
+.appointment {
+    background-color: #70C3D0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #f7f9fa;
+}
+
+button {
+    background-color: #033847;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.go-back {
+    display: block;
+    margin: 20px auto;
+}

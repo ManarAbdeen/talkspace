@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalkSpace Login</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/talkspace logo.jpg" alt="TalkSpace" width="150px" />
+      </div>
+
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="contact.html">Our Accounts</a>
+        <a href="register.html">Log in</a>
+         <button class="signup-btn" onclick="window.location.href='create.html'">Sign up</button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="login-box">
+        <h1 class="headline">Welcome Back!</h1>
+        <form>
+          <input type="text" placeholder="Enter Your User Name" required />
+          <input type="password" placeholder="Enter Your Password" required />
+          <button type="submit" class="login-btn">Log In</button>
+        </form>
+        <p class="signup-link">
+          Don't have an account? <a href="#">Sign up</a> now
+        </p>
+        <div class="divider">OR</div>
+
+        <button class="google-btn">
+          <img
+            src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+            alt="Google logo"
+          />
+          <span>Log in with Google</span>
+        </button>
+      </div>
+    </main>
+
+    <script src="js/register.js"></script>
+  </body>
+</html>
